@@ -1,0 +1,96 @@
+body{
+    background-image: url(../images/3.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    
+}
+.contenido{
+    
+    height: 100%;
+    max-width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.main{
+    width: 80%;
+    background-color: rgba(60, 172, 74, 0.295);
+    float: left;
+    box-sizing: border-box;
+    border-radius:20px; 
+} 
+
+.Titulo{
+    color:white;
+    font-family: "Homer Simpson UI";
+    font-size: 100px;
+}
+
+.Subtitulo{
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 50px;
+}
+
+p{
+margin-top:-5%;
+}
+
+.btn-group{
+    margin: 10px;
+}
+button{
+    background-color: transparent;
+    text-decoration: none;
+    border-color: transparent;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+ 
+}
+img{
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 400px;
+    height: 400px;
+}
+img.Flecha{
+    position: absolute;
+}
+
+img.Circulo{
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+.btn-group .Circulo:active {
+ 
+     opacity: 1;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .contenido{
+        margin-top: 40%;
+        }
+
+    .Titulo{
+        font-size: 60px;
+    }
+    .Subtitulo{
+        font-size: 30px;
+    }
+    
+
+}

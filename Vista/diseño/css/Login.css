@@ -1,0 +1,63 @@
+body{
+    background-image: url(../images/3.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    
+}
+.container{
+    height: 100%;
+    max-width: 100%;
+    margin:0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    }
+
+div.row{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    }
+.h2{
+    color:white;
+    font-family: "Homer Simpson UI";
+    font-size: 50px;
+    text-align: center;
+}
+.label{
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    color: white
+}
+.Registro{
+    font-family: "Homer Simpson UI";
+    font-size: 30px;
+    text-align: center;
+    margin-top:10px;
+}
+a{
+    color:white;
+}
+
+a:hover{
+    color: rgb(23, 80, 30);
+}
+
+.btn-group .ingresar:hover {
+    background-color: #8FBC8F;
+    color: white;
+}
+.ingresar{
+    margin-left: 150px;
+    margin-top:10px;
+    background-color:#006400;
+    opacity: 0.8;
+    color: white;
+    font-family:'Segoe UI';
+    font-size: 25px;
+    padding: 16px 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+}
